@@ -4,7 +4,6 @@ import "./SongCard.css";
 const SongCard = (props) => {
   const handleClick = () => {
     props.addSongToCurrentSongList(props.song);
-    console.log(props.song);
   };
 
   return (
